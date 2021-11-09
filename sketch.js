@@ -92,7 +92,7 @@ camera.position.x = kangaroo.x;
       gameState = END;
     }
     if(shrubsGroup.isTouching(kangaroo)){
-
+        score = score + 10;
       shrubsGroup.destroyEach();
     }
   }
